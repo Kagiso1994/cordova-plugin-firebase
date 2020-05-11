@@ -1,17 +1,17 @@
 {
   "author": {
-    "name": "Robert Arnesson"
+    "name": "Kagiso Mokautu"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arnesson/cordova-plugin-firebase"
+    "url": "https://github.com/Kagiso1994/cordova-plugin-firebase"
   },
-  "name": "cordova-plugin-firebase",
+  "name": "cordova-plugin-firebase-mip",
   "version": "2.0.5",
   "description": "Cordova plugin for Google Firebase",
   "cordova": {
-    "id": "cordova-plugin-firebase",
+    "id": "cordova-plugin-firebase-mip",
     "platforms": [
       "android",
       "ios",
