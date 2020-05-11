@@ -53,7 +53,7 @@ MAKE SURE THE CODE WORKS WITHOUT MODIFYING OR CHECKING IN ANY PLATFORM FILES.  A
 
 ## Need to test a PR?
 We rely on the community to help test out fixes and enhancements to this plugin. You can test out a PR by running the following commands:
-1. `cordova plugin remove cordova-plugin-firebase`
+1. `cordova plugin remove cordova-plugin-firebase-mip`
 2. `cordova plugin add https://github.com/<username>/cordova-plugin-firebase.git#<branch>`
    * replace `<username>` with the name of user/org where the branch resides
    * replace `<branch>` with the name of the branch used to create the PR
