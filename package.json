@@ -1,11 +1,9 @@
 {
-  "author": {
-    "name": "Kagiso Mokautu"
-  },
+  "author": "Kagiso Mokautu",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kagiso1994/cordova-plugin-firebase"
+    "url": "git+https://github.com/Kagiso1994/cordova-plugin-firebase.git"
   },
   "name": "cordova-plugin-firebase-mip",
   "version": "2.0.9",
@@ -45,5 +43,14 @@
     "test:cordova@7.1.0:browser@5.0.3": "bash ./test/test-default.sh 7.1.0 browser 5.0.3",
     "test:cordova@8.0.0:browser@5.0.3": "bash ./test/test-default.sh 8.0.0 browser 5.0.3"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/Kagiso1994/cordova-plugin-firebase/issues"
+  },
+  "homepage": "https://github.com/Kagiso1994/cordova-plugin-firebase#readme",
+  "main": "bump-version.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  }
 }
