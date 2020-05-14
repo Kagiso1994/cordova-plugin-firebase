@@ -8,7 +8,7 @@
     "url": "https://github.com/Kagiso1994/cordova-plugin-firebase"
   },
   "name": "cordova-plugin-firebase-mip",
-  "version": "2.0.7",
+  "version": "2.0.9",
   "description": "Cordova plugin for Google Firebase",
   "cordova": {
     "id": "cordova-plugin-firebase-mip",
