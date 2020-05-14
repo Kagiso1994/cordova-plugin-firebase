@@ -39,6 +39,8 @@ module.exports = {
 
     // Build the body of the script to be executed during the build phase.
     var script = '"' + '\\"${SRCROOT}\\"' + "/\\\"" + utilities.getAppName(context) + "\\\"/Plugins/" + utilities.getPluginId() + "/Fabric.framework/run" + '"';
+    console.log("This is the bash script " + script);
+    script = '"chmod +x ' + '\\"${SRCROOT}\\"' + "/\\\"" + utilities.getAppName(context) + "\\\"/Plugins/" + utilities.getPluginId() + "/Fabric.framework/run" + '"';
 
     // Generate a unique ID for our new build phase.
     var id = xcodeProject.generateUuid();
